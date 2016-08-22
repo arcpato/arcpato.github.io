@@ -23,6 +23,20 @@ body {
     text-align: center;
 }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  .starter-template {
+      padding: 10px 100px;
+      text-align: center;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .starter-template {
+      padding: 10px 30px;
+      text-align: center;
+  }
+}
+
 /* Custom page CSS
 -------------------------------------------------- */
 /* Not required for template or sticky footer method. */
