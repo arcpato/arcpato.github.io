@@ -6,10 +6,52 @@ body {
     font-family: 'Lato', Calibri, Arial, sans-serif;
 }
 
+.project-link, .project-link:hover, .project-link:active{
+  text-decoration: none;
+  padding-top: 10px;
+  color: black;
+
+}
+
+
+
+.project-title{
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  padding-top: 10px;
+  font-size: 20px;
+  margin-bottom: 0px;
+
+}
+
+
+.container-title{
+  background-color: #312244;
+  color: white;
+}
+
+.container-work {
+  /*background-color:#34a0a4;*/
+  background-color: #eef0f2;
+  color: black;
+}
+
+.container-aboutme {
+  /*background-color:#723c70;*/
+  background-color:#00373e;
+  color: white;
+}
+
+.container-skills {
+  background-color:#34a0a4;
+  color: white;
+}
 
 .navbar-default .navbar-toggle {
   border-color: none;
 }
+
 
 .navbar-default .navbar-brand,
 .navbar-default .navbar-brand:hover{
@@ -17,6 +59,10 @@ body {
   font-size: 20px;
   font-weight: bold;
   color: #444444;
+}
+
+img {
+  border: 1px solid rgb(182, 195, 204);
 }
 
 /* fa icons color  */
@@ -42,10 +88,19 @@ body {
 
 /* helpers */
 
-.mv {
-  margin-top: 30px;
-  margin-bottom: 30px;
+.mv--huge {
+  margin-top: 70px;
+  margin-bottom: 70px;
 }
+
+.mt--huge {
+    margin-top: 70px;
+}
+
+.mb--huge {
+    margin-bottom: 70px;
+}
+
 
 .mr--huge {
   margin-right: 30px;
@@ -55,8 +110,17 @@ body {
   margin-right: 20px;
 }
 
+
 .mr {
   margin-right: 15px;
+}
+
+.mb {
+  margin-bottom: 15px;
+}
+
+.mb--large {
+  margin-bottom: 30px;
 }
 
 .mr--small {
@@ -65,4 +129,8 @@ body {
 
 .mr--tiny {
   margin-right: 5px;
+}
+
+.pr {
+  padding-right: 5px;
 }
