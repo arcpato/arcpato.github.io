@@ -134,3 +134,7 @@ img {
 .pr {
   padding-right: 5px;
 }
+
+.lead {
+  font-weight: 380;
+}
